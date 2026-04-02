@@ -77,6 +77,7 @@ I am a recent graduate in [Computer Science / Electrical Engineering] from [Univ
 - **Project Name** — One sentence describing what you built.
   - Repo: [link](#)
   - Skills: Weaviate, RAG pipelines, embeddings
+  - [Read more](projects/sample-project.md) *(optional -- use for projects complex enough to warrant a detail page)*
 
 **Knowledge Graphs**
 
