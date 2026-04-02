@@ -1,40 +1,57 @@
-# AI.SPIRE Portfolio Site Template
+# Your Name — AI/ML Engineer
 
-A starter template for your professional portfolio site, built with GitHub Pages and Jekyll (Cayman theme). This site will grow throughout the AI.SPIRE program as you add projects from each module.
-
----
-
-## Quick Start
-
-1. **Click "Use this template"** (green button, top right) then **"Create a new repository"**
-2. **Name your repo** one of:
-   - `your-github-username.github.io` — this enables GitHub Pages automatically at `https://your-username.github.io/`
-   - `portfolio` — you will need to enable Pages manually (see step 4)
-3. **Set visibility to Public** (required for GitHub Pages free tier)
-4. **Enable GitHub Pages** (skip this step if you used the `.github.io` naming):
-   - Go to your repo Settings tab then Pages
-   - Under "Source," select **Deploy from a branch**
-   - Set Branch to **main**, folder to **/ (root)**
-   - Click **Save**
-5. **Wait 1-2 minutes**, then visit your site:
-   - If you named it `your-username.github.io`: visit `https://your-username.github.io/`
-   - If you named it `portfolio`: visit `https://your-username.github.io/portfolio/`
+> Replace this README with your own after setting up your site. This file is not displayed on your portfolio site — it is what visitors see when they visit your GitHub repo directly. A strong README here reinforces the professional impression your portfolio site creates.
 
 ---
 
-## Customizing Your Site
+## Setup Instructions
 
-1. **Edit `_config.yml`:** Change `title` to your name and `description` to your tagline
-2. **Edit `index.md`:** Replace the placeholder name, write your About section, and fill in your project entries
+*Delete everything above and below the setup instructions once you have completed them.*
+
+### 1. Create your repo from this template
+
+Click **"Use this template"** (green button, top right) then **"Create a new repository"**.
+
+Name your repo one of:
+- `your-github-username.github.io` — enables GitHub Pages automatically
+- `portfolio` — you will enable Pages manually in step 2
+
+Set visibility to **Public** (required for GitHub Pages free tier).
+
+### 2. Enable GitHub Pages
+
+If you used the `.github.io` naming, skip this step — Pages is already enabled.
+
+Otherwise: go to **Settings → Pages → Source → Deploy from a branch → main → / (root) → Save**.
+
+Wait 1-2 minutes, then visit your site.
+
+### 3. Customize your site
+
+1. **Edit `_config.yml`** — change `title` to your name and `description` to your tagline
+2. **Edit `index.md`** — replace the placeholder content with your own
 3. **Commit and push** — your site updates automatically in 1-2 minutes
 
----
+### 4. Replace the LICENSE
 
-## Adding Projects
+This template ships with a LevelUp Economy educational license. Once you create your own repo from this template, **replace the LICENSE file** with a license that fits your portfolio:
 
-After each module, add your new project to the appropriate phase section in `index.md`. Each entry should include a descriptive title, one sentence about what you built, a link to your GitHub repo, and 2-3 skill tags.
+- **[MIT License](https://choosealicense.com/licenses/mit/)** — lets anyone use your code with attribution. Good default for open-source portfolio projects.
+- **[CC BY 4.0](https://choosealicense.com/licenses/cc-by-4.0/)** — suited for written content and creative work. Requires attribution.
+- **No license** — if you prefer to retain all rights, you can delete the LICENSE file entirely. Others can view your code on GitHub but have no explicit permission to reuse it.
 
-For advanced projects (RAG systems, deployed APIs, capstone), you can create a dedicated detail page in the `projects/` folder. See `projects/sample-project.md` for the template.
+Choose what makes sense for your work. Visit [choosealicense.com](https://choosealicense.com/) if you are unsure.
+
+### 5. Replace this README
+
+Delete everything in this file and write your own. A good portfolio README includes:
+
+- **Your name and a one-line description** of who you are
+- **A link to your live portfolio site**
+- **A brief summary** of what the portfolio contains (e.g., "12 applied AI/ML projects spanning data pipelines, NLP, RAG systems, and deployed APIs")
+- **How to reach you** — GitHub profile, LinkedIn, email
+
+This is what hiring managers and collaborators see when they land on your repo. Make it count.
 
 ---
 
@@ -49,14 +66,12 @@ your-portfolio/
 ├── projects/
 │   └── sample-project.md        ← Template for project detail pages (optional)
 ├── .gitignore                   ← Keeps build artifacts out of your repo
-├── LICENSE                      ← Educational use license
-└── README.md                    ← This file (not displayed on the site)
+├── LICENSE                      ← Replace with your chosen license
+└── README.md                    ← This file — replace with your own
 ```
 
 ---
 
 ## License
 
-This repository is provided for educational use only. See [LICENSE](LICENSE) for terms.
-
-You may clone and modify this repository for personal learning and practice, and reference code you wrote here in your professional portfolio. Redistribution outside this course is not permitted.
+This template is provided for educational use by [LevelUp Economy](https://levelupeconomy.com). See [LICENSE](LICENSE) for terms. Once you create your own repo from this template, replace the LICENSE with your chosen license (see step 4 above).
